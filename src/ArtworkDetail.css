@@ -1,0 +1,226 @@
+/* General Styles */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  
+  .detail {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+  }
+  
+  .whole-div {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: flex-start;
+  }
+  
+  .main-content {
+    flex: 1;
+  }
+  
+  footer {
+    margin-top: 700px;
+    padding: 20px;
+  }
+  
+  /* Image and Title Section */
+  .detail__image-wrapper {
+    position: relative;
+    margin-bottom: 1.5rem;
+  }
+  
+  .detail__image {
+    position: absolute;
+    top: 60px;
+    margin-left: 10px;
+    max-width: 100%;
+    width: 475px;
+    height: 560px;
+  }
+  
+  .detail__title {
+    margin-top: 50px;
+    padding-left: 40px;
+    font-family: "Libre Baskerville", serif;
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 64px;
+    text-align: left;
+    width: 380px;
+  }
+  
+  .detail__artist {
+    padding-left: 40px;
+    font-family: "Libre Baskerville", serif;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 18.6px;
+    color: #7d7d7d;
+    text-align: left;
+    width: 246px;
+  }
+  
+  /* Buttons */
+  .detail__buttons {
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 2rem;
+  }
+  
+  .detail__button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background-color: rgb(23, 23, 23);
+    color: white;
+    font-family: "Libre Baskerville", serif;
+    font-size: 10px;
+    font-weight: 700;
+    letter-spacing: 2.14px;
+    text-align: right;
+    border: none;
+    cursor: pointer;
+    opacity: 0.75;
+    transition: opacity 0.3s;
+  }
+  
+  .detail__button:hover {
+    opacity: 0.25;
+  }
+  
+  /* Description Section */
+  .detail__description {
+    position: absolute;
+    margin-left: 900px;
+    margin-top: 150px;
+    font-family: "Libre Baskerville", serif;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 28px;
+    color: #7d7d7d;
+    width: 350px;
+  }
+  
+  .descripWrapper {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .sourceLink {
+    position: absolute;
+    margin-left: 900px;
+    margin-top: 550px;
+    font-family: "Libre Baskerville", serif;
+    font-size: 13px;
+    font-weight: 700;
+    text-decoration: underline;
+    color: #7d7d7d;
+    letter-spacing: 1.93px;
+  }
+  
+  /* Artist Section */
+  .artistLabel {
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+    position: absolute;
+    width: 405px;
+    height: 320px;
+    margin-left: 420px;
+    margin-top: -20px;
+    background: #ffffff;
+    z-index: 100;
+  }
+  
+  .portrait {
+    position: absolute;
+    width: 128px;
+    height: 128px;
+    top: 550px;
+    left: 505px;
+  }
+  
+  /* Year Section */
+  .Year {
+    position: absolute;
+    margin-left: 850px;
+    margin-top: 30px;
+    font-family: "Libre Baskerville", serif;
+    font-size: 200px;
+    font-weight: 700;
+    line-height: 150px;
+    color: #f3f3f3;
+    text-align: right;
+  }
+  
+  /* Modal Styles */
+  .detail__modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+  }
+  
+  .detail__modal-image {
+    max-width: 60%;
+    max-height: 60%;
+    padding-top: 10px;
+  }
+  
+  .detail__modal-close {
+    position: absolute;
+    top: 70px;
+    right: 1rem;
+    font-family: "Libre Baskerville", serif;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 3px;
+    color: #fff;
+    background: none;
+    border: none;
+    cursor: pointer;
+  }
+  
+  /* Footer Section */
+  .Footer-div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .Footer-details h1 {
+    font-family: "Libre Baskerville", serif;
+    font-size: 18px;
+    font-weight: 700;
+  }
+  
+  .Footer-details p {
+    font-family: "Libre Baskerville", serif;
+    font-size: 13px;
+    color: #e5e5e5;
+  }
+  
+  .Footer-buttons button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+  }
+  
+  .Footer-buttons img {
+    width: 24px;
+    height: 24px;
+  }
+  
